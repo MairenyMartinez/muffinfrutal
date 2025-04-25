@@ -1,0 +1,146 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color:#f4f4f4;
+}
+#contenido {
+background-color:#EBF5FB;
+float:left;
+height:200px;
+width:30%;
+}
+header {
+background-color: #BE3144;
+color: white;
+padding: 10px 50px;
+text-align: center;
+font-size: 19px;
+height: 50px;
+}
+header .navegar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px;
+font-family: GungsuhChe;
+text-decoration: none;
+}
+header .navegar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+text-decoration: none;
+}
+header .navegar ul li a {
+color: white;
+font-weight: bold;
+padding: 10px;
+text-decoration: none;
+}
+header .navegar ul li a:hover {
+background-color: #f2a900;
+border-radius: 5px;
+text-decoration: none;
+}
+.hero-section {
+//background:url("\PROYECTO\Imagenes/cupp.jpg");
+background-size: cover;
+color: black;
+height: 450px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.hero-section h1 {
+font-size: 5em;
+margin: 0;
+font-family:Toledo Heavy;
+}
+.hero-section p {
+font-size: 1.7em;
+font-family:Seagull;
+}
+.hero-section .boton {
+color: white;
+padding: 10px 20px;
+font-size: 1.2em;
+border: none;
+cursor: pointer;
+text-decoration: none;
+border-radius: 5px;
+backgroud: cover;
+background-color: #d17b00;
+}
+.hero-section .boton:hover {
+background-color: #d17b00;
+}
+.about-section {
+padding: 30px 30px;
+margin-top: 20px;
+text-align: justify;
+}
+.menu-item {
+background-color: #fff;
+padding: 20px;
+width: 1250px;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+text-align: justify;
+margin-bottom: 15px;
+}
+.about-section img {
+width: 20%;
+height: 200px;
+border-radius: 10px;
+margin-right: 30px;
+object-fit: cover;
+}
+.about-section p {
+font-size: 1.5em;
+color: #333;
+margin-top: 10px;
+font-family:Seagull;
+}
+.about-section li {
+font-size: 1.5em;
+color: #333;
+margin-top: 15px;
+font-family:Seagull;
+}
+.contact-section {
+background-color: #770104;
+color: white;
+text-align: center;
+margin: 0;
+height:150px;
+font-family:Franklin Gothic Medium;
+}
+table{
+border-collapse: collapse; 
+text-align: center;
+}
+td {
+padding: 0px 100px;
+}
+.direccion {
+text-align: left;
+}
+.telefonos {
+text-align: center;
+}
+.redes-sociales a{
+text-decoration: none;
+text-align: center;
+color: white;
+margin: 0 15px;
+font-size: 1.2em;
+}
+footer }
+color: white;
+text-align: center;
+padding: 10px;
+}
